@@ -10,7 +10,7 @@ max_steps: 4000 # 8000
 log_steps: 100
 val_split: validation
 val_steps: 400
-checkpoint_steps: 1000
+checkpoint_steps: 2000
 mixed_precision: "tf32" # "fp16" or "no"
 output_folder: tmp/experiments/layoutlmv3
 upload_model: true
