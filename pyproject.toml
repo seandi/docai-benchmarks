@@ -6,7 +6,7 @@ authors = ["Simone Eandi"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 ipykernel = "^6.29.5"
 datasets = "^2.21.0"
 gdown = "^5.2.0"
