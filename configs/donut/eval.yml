@@ -1,0 +1,3 @@
+dataset: "seandi/cord-v2-token-classification"
+# dataset: "tmp/dataset/cord-v2-token-classification"
+checkpoint: "naver-clova-ix/donut-base-finetuned-cord-v2"
