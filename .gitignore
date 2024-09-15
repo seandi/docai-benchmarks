@@ -3,3 +3,4 @@ nohup.out
 tmp
 __pycache__
 .env
+.vscode

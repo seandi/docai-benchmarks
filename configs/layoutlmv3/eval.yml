@@ -1,0 +1,6 @@
+dataset: "seandi/cord-v2-token-classification"
+# dataset: "tmp/dataset/cord-v2-token-classification"
+
+split: "test" 
+                          
+checkpoint: "tmp/experiments/layoutlmv3/train-xxxxxx/last"
