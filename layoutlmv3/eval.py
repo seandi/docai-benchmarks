@@ -5,13 +5,16 @@ import json
 from clearml import Task
 from tqdm import tqdm
 import numpy as np
+import torch
+
 from layoutlmv3.inference import InferenceEngine
 from utils import JSONParseEvaluator
 
 
 def eval(configs):
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     dataset = setup_dataset(configs["dataset"])
-    inference = InferenceEngine(checkpoint=configs["checkpoint"], device="cuda")
+    inference = InferenceEngine(checkpoint=configs["checkpoint"], device=device)
     total_tp, total_fn_or_fp = 0, 0
 
     for sample in tqdm(dataset[configs['split']]):
