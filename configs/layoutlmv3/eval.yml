@@ -3,4 +3,5 @@ dataset: "seandi/cord-v2-token-classification"
 
 split: "test" 
                           
-checkpoint: "tmp/experiments/layoutlmv3/train-xxxxxx/last"
+checkpoint: "seandi/layoutlmv3-cord-v2-token-classification"
+# checkpoint: "tmp/experiments/layoutlmv3/train-xxxxxx/last"
